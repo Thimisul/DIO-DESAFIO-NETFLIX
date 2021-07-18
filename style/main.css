@@ -11,7 +11,7 @@
 
 body {
   background: var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 
@@ -51,6 +51,7 @@ header nav a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
 } 
 
 .principal-movie .description {
@@ -94,4 +95,16 @@ header nav a:hover{
 .principal-movie .container {
   width: 70%;
 }
+
+.box-movie{
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.carousel-movie{
+  margin-top: 5px;
+}
+
 
